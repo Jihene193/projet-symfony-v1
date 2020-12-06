@@ -1,0 +1,487 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+
+	<title>الرحالة</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+	<link rel="stylesheet" href="js/owl-carousel/owl.transitions.css">
+	<link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+	<link rel="stylesheet" href="js/flexslider/flexslider.css">
+	<link rel="stylesheet" href="js/isotope/isotope.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="js/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- Icon Fonts -->
+	<link rel="stylesheet" href="css/icomoon/style.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+	<!-- SKIN -->
+	<link rel="stylesheet" href="css/color-scheme/default-blue.css" type="text/css">
+
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+           <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>      
+	<![endif]-->
+
+</head>
+<body>
+
+<div class="outer-wrapper">
+
+	<!-- TOPBAR -->
+	<div id="top-bar" class="hidden-xs hidden-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="top-bar-content">
+						<p>Besion d'aide? <span></span><i class="icon-mobile2"></i> (216) 25855000 <span></span>&bull;<span></span> <i class="icon-mail3"></i> Mail us - <a href="#">alrahala@gmail.com</a></p>
+					</div>
+					<div class="top-login">
+						<a href={{path('login')}}>Login</a>
+					</div>
+					<div class="nav-social-icons">
+						<ul class="social-icons">
+							<li class="facebook">
+								<a href="http://facebook.com" target="_blank">
+								<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li class="google-plus">
+								<a href="http://google.com" target="_blank">
+								<i class="fa fa-google-plus"></i>
+								<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							
+							</li>
+							<li class="instagram">
+								<a href="http://instagram.com" target="_blank">
+								<i class="fa fa-instagram"></i>
+								<i class="fa fa-instagram"></i>
+								</a>
+							</li>
+							<li class="youtube">
+								<a href="http://youtube.com" target="_blank">
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-youtube"></i>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- HEADER -->
+	<header id="header-main">
+		<div class="container">
+			<div class="navbar yamm navbar-default">
+				<div class="navbar-header">
+					<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand"><img src="" width="40" alt=""/></a>
+				</div>
+
+				<!-- CART / SEARCH -->
+				<div class="header-x pull-right">
+					<div class="s-cart">
+						<div class="sc-trigger"><i class="icon-bag"></i><span>2</span></div>
+						<div class="cart-info">
+							<small>You have <em class="highlight">2 item(s)</em> in your shopping bag</small>
+							<br>
+							<br>
+							
+							<div class="ci-item">
+								<img src="images/shop/8.jpg" width="70" alt=""/>
+								<div class="ci-item-info">
+									<h5><a href="./single-product.html">Product fashion</a></h5>
+									<p>2 x $250.00</p>
+									<div class="ci-edit">
+										<a href="#" class="edit fa fa-edit"></a>
+										<a href="#" class="edit fa fa-trash"></a>
+									</div>
+								</div>
+							</div>
+							<div class="ci-total">Subtotal: $750.00</div>
+							<div class="cart-btn">
+								<a href="#">View Bag</a>
+								<a href="#">Checkout</a>
+							</div>
+						</div>
+					</div>
+					<div class="s-search">
+						<div class="ss-trigger"><i class="icon-search2"></i></div>
+						<div class="ss-content">
+							<span class="ss-close icon-cross2"></span>
+							<div class="ssc-inner">
+								<form>
+									<input type="text" placeholder="Type Search text here...">
+									<button type="submit"><i class="icon-search2"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="navbar-collapse-1" class="navbar-collapse collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li class="dropdown yamm-fw">
+							<a href={{path('home')}} data-toggle="dropdown" class="dropdown-toggle">
+								Accueil 
+							
+							</a>
+							
+						</li>
+
+				  <li class="dropdown yamm-fw">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+								Activités 
+								<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="yamm-content">
+										<div class="row">
+											
+											<ul class="col-sm-3">
+												<li><a href={{path('activites')}}>Activités avec Groups</a></li>
+												<li><a href="404.html">Activités avec Agences</a></li>
+												
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+                         <li class="dropdown yamm-fw">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+								Événements 
+								<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="yamm-content">
+										<div class="row">
+											
+											<ul class="col-sm-3">
+												<li><a href="maintenance_mode.html">Événements avec Groups</a></li>
+												<li><a href="404.html">Événements avec Agences</a></li>
+												
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+
+
+
+                         <li class="dropdown ">
+							<a href={{path('dashbord')}} data-toggle="dropdown" class="dropdown-toggle">
+								Activités 
+								<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								
+								<li class="dropdown-submenu">
+									<a href={{path('dashbord')}}>acount</a>
+								
+								</li>
+								<li class="dropdown-submenu">
+									<a href="#">Activités avec Agences</a>
+									
+								
+							</ul>
+						</li>
+				  <li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+								Blog 
+							</a>
+							
+						</li>
+				 
+				  <li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+								shop 
+								<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="shop-left-sidebar.html">Shop - Left Sidebar</a></li>
+								<li><a href="shop-right-sidebar.html">Shop - Right Sidebar</a></li>
+								<li><a href="shop-fullwidth.html">Shop - Fullwidth</a></li>
+								<li><a href="shop-single-left.html">Single - Left Sidebar</a></li>
+								<li><a href="shop-single-right.html">Single - Right Sidebar</a></li>
+								<li><a href="shop-cart.html">Shop - Cart</a></li>
+								<li><a href="shop_checkout.html">Shop - Checkout</a></li>
+								<li><a href="shop-login.html">Shop - Account</a></li>
+							</ul>
+						</li>
+				  <li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+								Contact 
+								<div class="arrow-up"><i class="fa fa-angle-down"></i></div>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="contact1.html">Contact 1</a></li>
+							</ul>
+						</li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- PAGE HEADER -->
+	<div class="page_header">
+		
+		<div class="bcrumb-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="bcrumbs">
+							<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+							<li>Shop Login</li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SHOP CONTENT -->
+	<div class="inner-content">
+		<div class="container">
+			<div class="row shop-login">
+				<div class="col-md-6">
+					<div class="box-content">
+						<h3 class="uppercase text-center">I'm a Returning Customer</h3>
+						<div class="clearfix space40"></div>
+						<form class="logregform">
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Username or E-mail Address</label>
+										<input type="text" value="" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="clearfix space20"></div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<a class="pull-right" href="#">(Lost Password?)</a>
+										<label>Password</label>
+										<input type="password" value="" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="clearfix space20"></div>
+							<div class="row">
+								<div class="col-md-6">
+									<span class="remember-box checkbox">
+									<label for="rememberme">
+									<input type="checkbox" id="rememberme" name="rememberme">Remember Me
+									</label>
+									</span>
+								</div>
+								<div class="col-md-6">
+									<button type="submit" class="button btn-md pull-right">Login</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box-content">
+						<h3 class="uppercase text-center">Register An Account</h3>
+						<div class="clearfix space40"></div>
+						<form class="logregform">
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>E-mail Address</label>
+										<input type="text" value="" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="clearfix space20"></div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-6">
+										<label>Password</label>
+										<input type="password" value="" class="form-control">
+									</div>
+									<div class="col-md-6">
+										<label>Re-enter Password</label>
+										<input type="password" value="" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="space20"></div>
+									<button type="submit" class="button btn-md pull-right">Register</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- TWEET / SUBSCRIBE -->
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-6 f-subscribe">
+					<small> Recevoir <br>des mises <em> a jour et plus</em></small>
+					<form>
+						<input placeholder="Search here ..." type="text">
+						<button type="submit">SOUSCRIRE</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+				          
+					<h4 class="space30">EXPLORER</h4>
+					
+					<a style="font-size:18px;color:#808080;" href="#"> A propos</a><br>
+					<a style="font-size:18px;color:#808080;" href="#">Devenir partenaire</a><br>
+				    <a style="font-size:18px;color:#808080;" href="#">	Condition d'utilisation</a><br>
+                    <a style="font-size:18px;color:#808080;" href="#">  Contact</a><br>
+                   <a style="font-size:18px;color:#808080;" href="#">  FAQs</a>
+				</div>
+				
+				<div class="col-md-4">
+					<h4 class="space30">BESOIN D'AIDE?</h4>
+			        <ul class="c-info">
+						
+						<li><i class="fa fa-phone"></i> (216) 25855000</li>
+						<li><i class="fa fa-envelope-o"></i> alrahala@gmail.com</li>
+						
+					</ul>
+					<div class="clearfix space10"></div>
+				</div>
+                <div class="col-md-4">
+					<h4 class="space30">Suivez nous</h4>
+			  <ul class="social-icons">
+							<li class="facebook">
+								<a href="http://facebook.com" target="_blank">
+								<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li class="google-plus">
+								<a href="http://google.com" target="_blank">
+								<i class="fa fa-google-plus"></i>
+								<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							
+							</li>
+							<li class="instagram">
+								<a href="http://instagram.com" target="_blank">
+								<i class="fa fa-instagram"></i>
+								<i class="fa fa-instagram"></i>
+								</a>
+							</li>
+							<li class="youtube">
+								<a href="http://youtube.com" target="_blank">
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-youtube"></i>
+								</a>
+							</li>
+							
+						</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- FOOTER COPYRIGHT -->
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<p>&copy; Copyright 2020. Al Rahala</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Plugins -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/isotope/isotope.pkgd.js"></script>
+<script src="js/jflickrfeed.min.js"></script>
+<script src="js/tweecool.js"></script>
+<script src="js/flexslider/jquery.flexslider.js"></script>
+<script src="js/easypie/jquery.easypiechart.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.inview.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

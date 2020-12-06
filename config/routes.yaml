@@ -1,0 +1,19 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+login:
+    path: /login
+    controller: App\Controller\LoginController::index
+activites:
+    path: /activites
+    controller: App\Controller\ActivitesController::index
+detaill:
+    path: /detaill
+    controller: App\Controller\ActivitesController::detaill
+dashbord:
+    path: /dashbord
+    controller: App\Controller\ActivitesController::dashbord
